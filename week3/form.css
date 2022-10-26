@@ -1,0 +1,50 @@
+    h1 {
+        color: darkblue;
+        font-family: serif;
+        text-align: left;
+    }
+
+    h2 {
+        color: rgb(23, 68, 52);
+        font-family: 'Courie';
+        font-size: large;
+        text-align: left;
+    }
+
+    span {
+        color: rgb(202, 22, 22);
+        font-size: medium;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: rgb(95, 55, 55);
+        font-size: small;
+        font-style: italic;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    input {
+        color: rgb(54, 17, 17);
+        font-size: small;
+        font-style: normal;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    input[type=button] {
+        background-color: darkblue;
+        font-family: 'Lucida Sans Unicode';
+        color: white;
+        border-color: darkblue;
+        padding: 5px;
+    }
+
+    input[type=color] {
+        background-color: white;
+        border-color: white;
+        padding: 2px;
+    }
+    body {
+        background-color: rgb(224, 222, 224);
+    }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="form.css">
+
+    <h1>Register Here!</h1>
+    <h2>Please provide the information below.</h2> 
+    <p>Fields marked <span>*</span> are required.</p><br>
+</head>
+
+
+<body>
+    <form>
+        <label><strong>First Name:<span>*</span></strong></label>
+            <input type="text" name="firstname" size="30" required/> <br> <br>  
+        
+        <label><strong>Middle Name: </strong></label>     
+            <input type="text" name="middlename" size="29"/> <br> <br>  
+        
+        <label><strong>Last Name:<span>*</span></strong> </label>         
+            <input type="text" name="lastname" size="30" required/> <br> <br>
+        
+        <label><strong>Phone Number: </strong></label>         
+            <input type="tel" name="phone" size="25"/> <br> <br>
+        
+        <label><strong>Email:<span>*</span> </strong></label>         
+            <input type="text" name="Email" size="35" required/> <br> <br>
+        
+        <label><strong>Gender: </strong></label>         
+            <select name="gender">
+                <option value="select">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select> <br> <br>
+        
+        <label><strong>Date of Birth: </strong></label>         
+            <input type="date" name="birthday" size="25"/> <br> <br>
+        
+        <label><strong>Favorite Colour: </strong></label>         
+            <input type="color" name="favcolor" size="10"/> <br> <br> 
+
+        <input type="button" onclick="window.location.href='login.html';" class="btn btn-warning btn-lg" value="Submit"/>
+        
+        <br> <br>
+    </form>
+</body>
+
+</html>
