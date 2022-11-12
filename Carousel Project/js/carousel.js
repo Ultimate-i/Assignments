@@ -75,6 +75,3 @@ dotsNav.addEventListener('click', e => {
     updateDots(currentDot, targetDot);
     hideShowArrows(slides, targetIndex, prevButton, nextButton);
 })
-
-
-// console.log(targetIndex);
